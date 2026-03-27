@@ -104,9 +104,9 @@ export const experience: Experience[] = [
     company: "Self project",
     duration: "aug 2025 - oct 2025",
     description: `
-      A powerful deep learning model built with Python and TensorFlow, designed to identify 10 bird species quickly and accurately from images.
+      A powerful deep learning model built with Python and TensorFlow, designed to identify 10 bird species quickly and accurately from images. ||
 
-      Developed a content recommendation system for movies, anime, and TV series using K-Nearest Neighbors (KNN). Built a Streamlit-based web app with an interactive UI for personalized suggestions. Optimized data processing with Pandas and NumPy, ensuring fast and accurate recommendations
+      Developed a content recommendation system for movies, anime, and TV series using K-Nearest Neighbors (KNN). Built a Streamlit-based web app with an interactive UI for personalized suggestions. Optimized data processing with Pandas and NumPy, ensuring fast and accurate recommendations ||
 
       Developed a PDF manipulation tool with features like text extraction, image extraction, metadata modification, encryption, decryption, merging, splitting, and annotation. Utilized PyPDF2, PDFMiner, and PIL to efficiently process both text and images within PDFs. Implemented encryption and decryption for enhanced document security.
     `
