@@ -98,21 +98,20 @@ export const skills: string[] = [
     "Git"
 ];
 
-// export const experience: Experience[] = [
-//   {
-//     role: "Data Engineer Intern",
-//     company: "Yatra Online Ltd.",
-//     duration: "feb 2025 - sep 2025",
-//     description: `
-//       Engineered scalable backend services for Dynamic Pricing and Hotel Ranking, directly influencing user search results.||
-//       Developed the Yatra Travel Chatbot using FastAPI, Redis, and Dialogflow, reducing support ticket volume by 30%.||
-//       Built the CCR internal dashboard with Streamlit and REST APIs to visualize competitive pricing data in real time.||
-//       Optimized geospatial data access with PostGIS and Flask to improve hotel search latency.||
-//       Designed ETL pipelines using Python, Airflow, and SQL to process 5M+ daily records with 99.9% uptime.||
-//       Automated reporting workflows with cron jobs and SMTP, saving more than 15 hours of manual work each week.
-//     `
-//   }
-// ];
+export const experience: Experience[] = [
+  {
+    role: "ML Engineer",
+    company: "Self project",
+    duration: "aug 2025 - oct 2025",
+    description: `
+      A powerful deep learning model built with Python and TensorFlow, designed to identify 10 bird species quickly and accurately from images.
+
+      Developed a content recommendation system for movies, anime, and TV series using K-Nearest Neighbors (KNN). Built a Streamlit-based web app with an interactive UI for personalized suggestions. Optimized data processing with Pandas and NumPy, ensuring fast and accurate recommendations
+
+      Developed a PDF manipulation tool with features like text extraction, image extraction, metadata modification, encryption, decryption, merging, splitting, and annotation. Utilized PyPDF2, PDFMiner, and PIL to efficiently process both text and images within PDFs. Implemented encryption and decryption for enhanced document security.
+    `
+  }
+];
 
 export const projects: Project[] = [
 
@@ -156,7 +155,7 @@ const data = {
   personalInfo,
   socialLinks,
   skills,
-  // experience,
+  experience,
   projects
 };
 
